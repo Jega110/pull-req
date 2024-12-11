@@ -21,5 +21,5 @@ print("values stored successfully")
 cursor.execute('select * from students')
 rows=cursor.fetchall()
 for i in rows:
-    print("The values in the table are\n",i)
+    print("The values in the TABLE are\n",i)
                  
